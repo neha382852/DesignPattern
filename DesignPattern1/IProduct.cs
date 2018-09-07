@@ -8,9 +8,11 @@ namespace DesignPattern1
 {
     interface IProduct
     {
-        string GetTypeOfProduct();
-        void Save();
-        void Book();
+        string ProductType { get; set; }
+        string ProductName { get; set; }
+        bool IsBooked { get; set; }
+        int fareprice { get; set; }
+       
 
     }
 }

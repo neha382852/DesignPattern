@@ -1,0 +1,5 @@
+Type Of Product: HotelProduct 
+Name Of Product: Hotel Hyatt
+Price Of Product: 4650
+IsBooked: True
+

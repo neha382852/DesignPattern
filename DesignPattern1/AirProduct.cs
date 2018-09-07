@@ -8,19 +8,18 @@ namespace DesignPattern1
 {
     class AirProduct: IProduct
     {
-        public String GetTypeOfProduct()
-        {
-            return "Air";
-        }
+       
+        public string prodtype = "AirProduct ";
+        public string prodname = "Air Asia";
+        public bool isbooked = false;
+        public int price = 300;
+        public string ProductType { get { return prodtype; } set { prodtype = value; } }
+        public string ProductName { get { return prodname; } set { prodname = value; } }
+        public bool IsBooked { get { return isbooked; } set { isbooked = value; } }
 
-        public void Save()
-        {
-            Console.WriteLine("Booking Air Product");
-        }
+        public int fareprice { get { return price; } set { price = value; } }
 
-        public void Book()
-        {
-            Console.WriteLine("saving air product completed");
-        }
+
+
     }
 }

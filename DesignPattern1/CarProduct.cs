@@ -8,19 +8,15 @@ namespace DesignPattern1
 {
     class CarProduct: IProduct
     {
-        public String GetTypeOfProduct()
-        {
-            return "Car";
-        }
+        public string prodtype = "CarProduct";
+        public string prodname = "B.M.W";
+        public bool isbooked = false;
+        public int price = 500;
+        public string ProductType { get { return prodtype; } set { prodtype = value; } }
+        public string ProductName { get { return prodname; } set { prodname = value; } }
+        public bool IsBooked { get { return isbooked; } set { isbooked = value; } }
+        public int fareprice { get { return price; } set { price = value; } }
 
-        public void Save()
-        {
-            Console.WriteLine("Booking Car Product");
-        }
 
-        public void Book()
-        {
-            Console.WriteLine("saving car product completed");
-        }
     }
 }

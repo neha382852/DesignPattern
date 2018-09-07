@@ -8,19 +8,17 @@ namespace DesignPattern1
 {
     class HotelProduct: IProduct
     {
-        public String GetTypeOfProduct()
-        {
-            return "Hotel";
-        }
+       
+        public string prodtype = "HotelProduct ";
+        public string prodname = "Hotel Hyatt";
+        public bool isbooked = false;
+        public int price = 4500;
+        public string ProductType { get { return prodtype; } set { prodtype = value; } }
+        public string ProductName { get { return prodname; } set { prodname = value; } }
+        public bool IsBooked { get { return isbooked; } set { isbooked = value; } }
+        public int fareprice { get { return price; } set { price = value; } }
 
-        public void Save()
-        {
-            Console.WriteLine("Booking hotel Product");
-        }
 
-        public void Book()
-        {
-            Console.WriteLine("saving hotel product completed");
-        }
+
     }
 }

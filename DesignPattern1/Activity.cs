@@ -8,19 +8,16 @@ namespace DesignPattern1
 {
     class Activity: IProduct
     {
-        public String GetTypeOfProduct()
-        {
-            return "Activity";
-        }
+        public string prodtype = "Activity ";
+        public string prodname = "xyz";
+        public bool isbooked = false;
+        public int price = 100;
+        public string ProductType { get { return prodtype; } set { prodtype = value; } }
+        public string ProductName { get { return prodname; } set { prodname = value; } }
+        public bool IsBooked { get { return isbooked; } set { isbooked = value; } }
+        public int fareprice { get { return price; } set { price = value; } }
 
-        public void Save()
-        {
-            Console.WriteLine("Booking activity Product");
-        }
 
-        public void Book()
-        {
-            Console.WriteLine("saving activity product completed");
-        }
+
     }
 }
