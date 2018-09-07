@@ -1,0 +1,316 @@
+----In Main Class---- 
+
+Reading Input 
+
+Calling Function GetProduct to determine the type of object to be created.
+
+Returning the type of object as per the user input.
+
+----In Main Class---- 
+
+Reading Input 
+
+Calling Function GetProduct to determine the type of object to be created.
+
+Returning the type of object as per the user input.
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+Determining the operation which is to be performed 
+
+----In book method of---Activity 
+
+Calling AddToFile method of Activity to add the  booking details to file.
+
+----In Main Class---- 
+
+Reading Input 
+
+----In Main Class---- 
+
+Reading Input 
+
+Calling Function GetProduct to determine the type of object to be created.
+
+---In the GetProduct() of Factory class---
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+---In the GetTypeOfStorage() of Factory class---
+
+Determining the operation which is to be performed 
+
+----In FareCalculation() of StrategyOfHotel Class---- 
+
+----In book method of---HotelProduct 
+
+Calling AddToFile method of HotelProduct to add the  booking details to file.
+
+---In AddRecord() of FileRepository class---
+
+AddingHotelProduct details to the file.
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+Calling Function GetProduct to determine the type of object to be created.
+
+
+---In the GetProduct() of Factory class---
+
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+
+---In the GetTypeOfStorage() of Factory class---
+
+
+Determining the operation which is to be performed 
+
+
+----In FareCalculation() of StrategyOfHotel Class---- 
+
+
+----In Save method of---HotelProduct 
+
+
+Calling AddToFile method of HotelProduct to save book details to file.
+
+
+----In AddRecord() of SqlRepository Class---- 
+
+
+AddingHotelProduct details to the MYSQL database.
+
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+Calling Function GetProduct to determine the type of object to be created.
+
+
+---In the GetProduct() of Factory class---
+
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+
+---In the GetTypeOfStorage() of Factory class---
+
+
+Determining the operation which is to be performed 
+
+
+----In FareCalculation() of StrategyOfCar Class---- 
+
+
+----In book method of---CarProduct
+
+
+Calling AddToFile method of CarProductto add the  booking details to file.
+
+
+----In AddRecord() of SqlRepository Class---- 
+
+
+AddingCarProductdetails to the MYSQL database.
+
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+Calling Function GetProduct to determine the type of object to be created.
+
+
+---In the GetProduct() of Factory class---
+
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+
+---In the GetTypeOfStorage() of Factory class---
+
+
+Determining the operation which is to be performed 
+
+
+----In FareCalculation() of StrategyOfActivity Class---- 
+
+
+----In book method of---Activity 
+
+
+Calling AddToFile method of Activity to add the  booking details to file.
+
+
+---In AddRecord() of FileRepository class---
+
+
+AddingActivity details to the file.
+
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+Calling Function GetProduct to determine the type of object to be created.
+
+
+---In the GetProduct() of Factory class---
+
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+
+---In the GetTypeOfStorage() of Factory class---
+
+
+Determining the operation which is to be performed 
+
+
+----In FareCalculation() of StrategyOfActivity Class---- 
+
+
+----In book method of---AirProduct 
+
+
+Calling AddToFile method of AirProduct to add the  booking details to file.
+
+
+---In AddRecord() of FileRepository class---
+
+
+AddingAirProduct details to the file.
+
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+Calling Function GetProduct to determine the type of object to be created.
+
+
+---In the GetProduct() of Factory class---
+
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+
+---In the GetTypeOfStorage() of Factory class---
+
+
+Determining the operation which is to be performed 
+
+
+----In FareCalculation() of StrategyOfActivity Class---- 
+
+
+----In book method of---HotelProduct 
+
+
+Calling AddToFile method of HotelProduct to add the  booking details to file.
+
+
+---In AddRecord() of FileRepository class---
+
+
+AddingHotelProduct details to the file.
+
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+----In Main Class---- 
+
+
+Reading Input 
+
+
+Calling Function GetProduct to determine the type of object to be created.
+
+
+---In the GetProduct() of Factory class---
+
+
+Calling Function GetTypeOfItemForFareCalculation to determine for which item you want to calculate fare .
+
+
+---In the GetTypeOfItemForFareCalculation() of Factory class---
+
+
+Calling Function GetTypeOfStorage to determine where you want to store your data .
+
+
+---In the GetTypeOfStorage() of Factory class---
+
+
+Determining the operation which is to be performed 
+
+
+----In FareCalculation() of StrategyOfActivity Class---- 
+
+
+----In Save method of---AirProduct 
+
+
+Calling AddToFile method of AirProduct to save book details to file.
+
+
+----In AddRecord() of SqlRepository Class---- 
+
+
+AddingAirProduct details to the MYSQL database.
+
+
